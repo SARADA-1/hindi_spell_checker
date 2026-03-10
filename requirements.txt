@@ -1,0 +1,18 @@
+# Instruct pip to find the CUDA 12.1 GPU version of PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Deep Learning Core
+torch
+torchvision
+torchaudio
+
+# NLP and Hugging Face Ecosystem
+transformers
+datasets
+
+# Jupyter Notebook dependencies for VS Code
+jupyter
+ipykernel
+
+gradio
+tqdm
